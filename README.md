@@ -1,11 +1,6 @@
-# My Data Analysis Portfolio 
-
-## Education
-
-## Work Experience
-
-## Projects
-
-### Project 1
-
-### Project 2
+# (parte superior del README.md)
+---
+layout: home          #  utiliza el layout principal de minima
+title: Joaquín Romero • Data Analytics Portfolio
+permalink: /          #  <-  esto lo convierte en la portada
+---
