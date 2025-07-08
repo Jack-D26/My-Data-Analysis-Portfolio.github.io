@@ -1,2 +1,27 @@
-title: Joaquín Romero Pérez
-theme: jekyll-theme-minima
+title: Joaquín Romero • Data Analytics Portfolio
+author: Joaquín Romero Pérez
+email: j.romero@email.com
+description: >
+  Personal portfolio showcasing bootcamp projects, Streamlit apps
+  and modular analytics pipelines.
+baseurl: ""      # dejar vacío porque tu repo es <user>.github.io
+url: "https://jack-d26.github.io"
+
+# ——— Jekyll & theme ----------------------------------------------------------
+theme: minima
+minima:
+  skin: auto            # cambia automáticamente claro / oscuro
+  nav_pages:            # orden de enlaces en la cabecera
+    - index.md
+    - pages/about.md
+    - pages/contact.md
+    - pages/projects.md # listado “índice” de proyectos (opcional)
+
+# ——— Colección de proyectos ---------------------------------------------------
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/   # URLs limpias tipo /projects/f1_app/
+
+# ——— Build options -----------------------------------------------------------
+plugins: []   # GitHub Pages carga los necesarios por defecto
