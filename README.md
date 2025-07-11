@@ -1,12 +1,4 @@
 
----
-layout: home
-title: Joaquín Romero • Data Analytics Portfolio
-permalink: /
----
-
-![Banner](/assets/resources/banner_slim.png)
-
 ## 👋 Hola, soy Joaquín
 
 Data Analyst con formación en **Negocios Internacionales**, experiencia en inversión y un profundo interés por **IA, BI y workflows de automatización**. Mi objetivo es transformar datos en decisiones accionables y resultados tangibles.
