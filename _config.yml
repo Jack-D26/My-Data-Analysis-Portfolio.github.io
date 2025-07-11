@@ -1,15 +1,40 @@
 title: Joaquín Romero • Data Analytics Portfolio
-author: Joaquín Romero Pérez
 email: j.romero@email.com
-description: Personal portfolio showcasing bootcamp projects, Streamlit apps and modular analytics pipelines.
+description: >- # este símbolo permite escribir múltiples líneas
+  Personal portfolio showcasing bootcamp projects, Streamlit apps and modular analytics pipelines.
+baseurl: "" # No poner nada si se despliega en GitHub Pages como usuario
+github_username: jack-d26
 
 theme: minima
 
-minima:
-  skin: classic
-  nav_pages:
-    - README.md
-  social_links: []
+# Usar nuestro layout "home" personalizado
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: home
 
+# Incluir nuestro archivo CSS personalizado
 sass:
   style: compressed
+
+plugins:
+  - jekyll-feed
+
+# Archivos que queremos incluir en la compilación
+include:
+  - _pages
+
+# Ruta a tus estilos personalizados
+minima:
+  skin: classic
+  social_links:
+    github: jack-d26
+# Personalización del sitio (ya apunta al CSS correcto que sí tienes)
+# Asegúrate que en tu layout `default.html` tengas incluido:
+# <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
