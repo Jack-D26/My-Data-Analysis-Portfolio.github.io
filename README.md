@@ -8,4 +8,4 @@ permalink: /
 
 Data Analyst with a background in **International Business** and a passion for **AI, BI, and process automation**. I turn data into actionable strategies and measurable results.
 
-> 🚀 Explore my featured projects below:
+🚀 Explore my projects below.

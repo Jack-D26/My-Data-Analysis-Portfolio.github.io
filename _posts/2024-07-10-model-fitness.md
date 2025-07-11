@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Customer Churn Analysis and Strategic Segmentation for Model Fitness"
-date: 2024-06-10
-categories: proyectos
-excerpt: "In this project, I analyzed customer churn patterns and created strategic customer segments for Model Fitness, a gym chain, to reduce attrition and boost retention."
+date: 2024-07-10
+categories: projects
 ---
 
 ## 🎯 Objective
@@ -17,7 +16,6 @@ The goal was to analyze churn behavior, identify patterns, and build strategic c
 - Performed **Exploratory Data Analysis (EDA)** to detect patterns in churned vs active clients.
 - Engineered new features and visualized key indicators like tenure, gender, membership type, and activity level.
 - Built a **K-Means clustering model** to segment clients into 4 groups based on behavior and risk of churn.
-  ![Tenure vs Churn](assets/projects/model_fitness/clusters_kmeans.png)
 - Generated actionable recommendations for each segment to support business strategy.
 
 ## 🔍 Insights & Findings
@@ -31,13 +29,11 @@ The goal was to analyze churn behavior, identify patterns, and build strategic c
   3. **Short-term opportunists**
   4. **Newcomers with potential**
 
-📊 Recommended Screenshot: Scatter plot of clusters with churn proportion
-
 ## 💡 Conclusions & Recommendations
 
 - Focus retention efforts on **new clients in their first 3 months** through onboarding programs and engagement tracking.
-- Offer **incentives to low-engagement members** to increase visit frequency (e.g., loyalty points or class bundles).
-- Encourage **longer contract sign-ups** via discounts or perks, as they correlate with better retention.
+- Offer **incentives to low-engagement members** to increase visit frequency.
+- Encourage **longer contract sign-ups** via discounts or perks.
 - Use cluster profiles to personalize communication and offers based on behavior patterns.
 
 ## 🛠️ Tools & Technologies

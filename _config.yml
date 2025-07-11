@@ -1,34 +1,10 @@
 title: Joaquín Romero • Data Analytics Portfolio
 author: Joaquín Romero Pérez
 email: j.romero@email.com
-description: >
-  Personal portfolio showcasing bootcamp projects, Streamlit apps
-  and modular analytics pipelines.
-baseurl: "" # dejar vacío porque tu repo es <user>.github.io
-url: "https://jack-d26.github.io"
-
-# ——— Jekyll & theme ----------------------------------------------------------
+description: Personal portfolio showcasing bootcamp projects, Streamlit apps and modular analytics pipelines.
 theme: minima
+
 minima:
-  skin: auto # cambia automáticamente claro / oscuro
-nav_pages:
-  - README.md
-  - pages/about.md
-  - pages/contact.md
-  - pages/projects.md
-
-# ——— Colección de proyectos ---------------------------------------------------
-collections:
-  projects:
-    output: true
-    permalink: /projects/:name/ # URLs limpias tipo /projects/f1_app/
-
-# ——— Build options -----------------------------------------------------------
-plugins: [] # GitHub Pages carga los necesarios por defecto
-
-defaults:
-  - scope:
-      path: ""
-      type: projects
-    values:
-      layout: post
+  skin: auto
+  nav_pages:
+    - README.md
