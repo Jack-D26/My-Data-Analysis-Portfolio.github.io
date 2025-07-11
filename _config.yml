@@ -2,9 +2,14 @@ title: Joaquín Romero • Data Analytics Portfolio
 author: Joaquín Romero Pérez
 email: j.romero@email.com
 description: Personal portfolio showcasing bootcamp projects, Streamlit apps and modular analytics pipelines.
+
 theme: minima
 
 minima:
-  skin: auto
+  skin: classic # Usa el estilo base de Minima (más controlable)
   nav_pages:
     - README.md
+  social_links: [] # Puedes llenarlo después si quieres íconos de redes
+
+sass:
+  style: compressed # Para que el estilo .scss sea procesado y aplicado correctamente
