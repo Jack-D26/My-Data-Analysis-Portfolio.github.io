@@ -1,24 +1,17 @@
-title: "Joaquín Romero • Data Analytics Portfolio"
+title: Joaquín Romero • Data Analytics Portfolio
 email: j.romero@email.com
 description: >-
   Personal portfolio showcasing bootcamp projects, Streamlit apps and modular analytics pipelines.
-baseurl: "" # Para user.github.io
-url: "https://jack-d26.github.io/My-Data-Analysis-Portfolio.github.io/" # sin / al final
+baseurl: "/My-Data-Analysis-Portfolio.github.io" # 👈 muy importante para que jekyll sepa la subcarpeta
+url: "https://jack-d26.github.io" # 👈 tu dominio raíz
 theme: minima
+
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
-sass:
-  style: compressed
+
 defaults:
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      excerpt_separator: "<!--more-->"
-header_pages:
-  - README.md
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
