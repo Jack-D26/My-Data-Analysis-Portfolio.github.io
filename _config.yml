@@ -1,17 +1,15 @@
 title: Joaquín Romero • Data Analytics Portfolio
+author: Joaquín Romero Pérez
 email: j.romero@email.com
-description: >-
-  Personal portfolio showcasing bootcamp projects, Streamlit apps and modular analytics pipelines.
-baseurl: "/My-Data-Analysis-Portfolio.github.io" # 👈 muy importante para que jekyll sepa la subcarpeta
-url: "https://jack-d26.github.io" # 👈 tu dominio raíz
+description: Personal portfolio showcasing bootcamp projects, Streamlit apps and modular analytics pipelines.
+
 theme: minima
 
-plugins:
-  - jekyll-feed
+minima:
+  skin: classic
+  nav_pages:
+    - README.md
+  social_links: []
 
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+sass:
+  style: compressed
