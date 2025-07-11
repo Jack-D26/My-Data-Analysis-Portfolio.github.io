@@ -4,13 +4,13 @@ email: j.romero@email.com
 description: >
   Personal portfolio showcasing bootcamp projects, Streamlit apps
   and modular analytics pipelines.
-baseurl: ""      # dejar vacío porque tu repo es <user>.github.io
+baseurl: "" # dejar vacío porque tu repo es <user>.github.io
 url: "https://jack-d26.github.io"
 
 # ——— Jekyll & theme ----------------------------------------------------------
 theme: minima
 minima:
-  skin: auto            # cambia automáticamente claro / oscuro
+  skin: auto # cambia automáticamente claro / oscuro
 nav_pages:
   - index.md
   - pages/about.md
@@ -21,7 +21,14 @@ nav_pages:
 collections:
   projects:
     output: true
-    permalink: /projects/:name/   # URLs limpias tipo /projects/f1_app/
+    permalink: /projects/:name/ # URLs limpias tipo /projects/f1_app/
 
 # ——— Build options -----------------------------------------------------------
-plugins: []   # GitHub Pages carga los necesarios por defecto
+plugins: [] # GitHub Pages carga los necesarios por defecto
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: post
