@@ -6,10 +6,10 @@ description: Personal portfolio showcasing bootcamp projects, Streamlit apps and
 theme: minima
 
 minima:
-  skin: classic # Usa el estilo base de Minima (más controlable)
+  skin: classic
   nav_pages:
     - README.md
-  social_links: [] # Puedes llenarlo después si quieres íconos de redes
+  social_links: []
 
 sass:
-  style: compressed # Para que el estilo .scss sea procesado y aplicado correctamente
+  style: compressed

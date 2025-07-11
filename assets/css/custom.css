@@ -1,3 +1,26 @@
 body {
-  background-color: #f8f8f8;
+  font-size: 18px;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
+.post {
+  margin-bottom: 3rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.post h2 {
+  margin-bottom: 0.5rem;
+}
+
+.post p {
+  margin-top: 0;
 }
