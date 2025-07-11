@@ -1,38 +1,33 @@
-/* Aumentar tipografía y mejorar legibilidad */
-body {
-  font-size: 21px;
-  line-height: 1.9;
-  max-width: 1000px;
+
+/* Aumenta el ancho del contenido */
+.wrapper {
+  max-width: 900px;
+  padding: 2rem;
   margin: 0 auto;
-  padding: 3rem 1rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  background-color: #fafafa;
-  color: #111;
 }
 
-h1, h2, h3 {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  font-weight: 700;
+/* Aumenta tamaño de texto y espaciado */
+body {
+  font-size: 20px;
+  line-height: 1.8;
 }
 
-a {
-  color: #0077cc;
-  text-decoration: none;
+/* Titulos más grandes y claros */
+h1, h2, h3, h4 {
+  font-weight: bold;
+  line-height: 1.4;
 }
 
-a:hover {
-  text-decoration: underline;
+h1 {
+  font-size: 2.2em;
 }
 
-/* Espaciado más generoso entre posts */
-ul.posts > li {
-  margin-bottom: 2.5rem;
+h2 {
+  font-size: 1.8em;
 }
 
-/* Para que se vea el excerpt */
+/* Estilo del excerpt */
 .post-excerpt {
-  margin-top: 0.5rem;
-  color: #555;
-  font-size: 18px;
+  margin-bottom: 1.5rem;
+  color: #333;
 }

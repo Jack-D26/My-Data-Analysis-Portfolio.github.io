@@ -1,40 +1,24 @@
-title: Joaquín Romero • Data Analytics Portfolio
+title: "Joaquín Romero • Data Analytics Portfolio"
 email: j.romero@email.com
-description: >- # este símbolo permite escribir múltiples líneas
+description: >-
   Personal portfolio showcasing bootcamp projects, Streamlit apps and modular analytics pipelines.
-baseurl: "" # No poner nada si se despliega en GitHub Pages como usuario
-github_username: jack-d26
-
+baseurl: "" # Para user.github.io
+url: "https://jack-d26.github.io/My-Data-Analysis-Portfolio.github.io/" # sin / al final
 theme: minima
-
-# Usar nuestro layout "home" personalizado
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+sass:
+  style: compressed
 defaults:
   - scope:
       path: ""
       type: "posts"
     values:
-      layout: post
-  - scope:
-      path: ""
-    values:
-      layout: home
-
-# Incluir nuestro archivo CSS personalizado
-sass:
-  style: compressed
-
-plugins:
-  - jekyll-feed
-
-# Archivos que queremos incluir en la compilación
-include:
-  - _pages
-
-# Ruta a tus estilos personalizados
-minima:
-  skin: classic
-  social_links:
-    github: jack-d26
-# Personalización del sitio (ya apunta al CSS correcto que sí tienes)
-# Asegúrate que en tu layout `default.html` tengas incluido:
-# <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+      layout: "post"
+      excerpt_separator: "<!--more-->"
+header_pages:
+  - README.md
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
