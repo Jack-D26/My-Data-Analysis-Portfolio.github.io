@@ -1,7 +1,10 @@
 
-## 👋 Hola, soy Joaquín
+## Welcome
 
-Data Analyst con formación en **Negocios Internacionales**, experiencia en inversión y un profundo interés por **IA, BI y workflows de automatización**. Mi objetivo es transformar datos en decisiones accionables y resultados tangibles.
+🤝 I’m looking to collaborate on
+
+Junior data analyst roles focused on generating actionable business insights for **retail** or **tech** companies. I'm eager to apply data analytics and AI to streamline operations and deliver measurable impact.
+
 
 ---
 
@@ -17,12 +20,6 @@ Data Analyst con formación en **Negocios Internacionales**, experiencia en inve
 ![n8n](https://img.shields.io/badge/n8n-FE652F?style=for-the-badge&logo=n8n&logoColor=white)
 
 ---
-
-### 📂 Proyectos destacados  
-
-{% for project in site.projects limit:3 %}
-- **[{{ project.title }}]({{ project.url }})** – {{ project.excerpt | strip_html | truncate: 160 }}
-{% endfor %}
 
 > 👉 Visita la sección **[Projects](/projects/)** para ver la lista completa.
 
