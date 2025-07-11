@@ -12,7 +12,7 @@ theme: minima
 minima:
   skin: auto # cambia automáticamente claro / oscuro
 nav_pages:
-  - index.md
+  - README.md
   - pages/about.md
   - pages/contact.md
   - pages/projects.md
