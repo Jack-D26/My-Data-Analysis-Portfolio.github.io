@@ -2,7 +2,7 @@
 layout: post
 title: "Customer Churn Analysis and Strategic Segmentation for Model Fitness"
 date: 2024-07-10
-categories: projects
+excerpt: "Strategic insights into customer churn behavior and segmentation for Model Fitness, using clustering and actionable recommendations."
 ---
 
 ## 🎯 Objective
