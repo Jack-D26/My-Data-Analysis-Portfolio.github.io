@@ -11,11 +11,11 @@ url: "https://jack-d26.github.io"
 theme: minima
 minima:
   skin: auto            # cambia automáticamente claro / oscuro
-  nav_pages:            # orden de enlaces en la cabecera
-    - README.md
-    - pages/about.md
-    - pages/contact.md
-    - pages/projects.md # listado “índice” de proyectos (opcional)
+nav_pages:
+  - index.md
+  - pages/about.md
+  - pages/contact.md
+  - pages/projects.md
 
 # ——— Colección de proyectos ---------------------------------------------------
 collections:
