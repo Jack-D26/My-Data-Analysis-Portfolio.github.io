@@ -33,12 +33,11 @@ The analytics team at **Showz** wanted to understand:
   1. **Traffic & engagement** – daily / weekly / monthly unique users, session length, returning-user share.
   2. **Funnel timing** – distribution of “first visit → first order” lag.
   3. **Cohort LTV curves** – revenue month 0 → month 12 per signup cohort.
+  4. **CAC vs LTV & ROMI** – channel-level payback calculation.
 
 ### Cohort Revenue over 12 Months
 
-![Cohort LTV](../../../assets/projects/showz_analysis/cohort_ltv.png)
-
-4. **CAC vs LTV & ROMI** – channel-level payback calculation.
+![Cohort LTV]({{ site.baseurl }}/assets/projects/showz_analysis/cohort_ltv.png)
 
 ---
 
@@ -48,7 +47,7 @@ The analytics team at **Showz** wanted to understand:
 
 ### Daily Traffic Trend
 
-![Daily Unique Users](../../../assets/projects/showz_analysis/daily_unique_users.png)
+![Daily Unique Users]({{ site.baseurl }}/assets/projects/showz_analysis/daily_unique_users.png)
 
 - **~26 % of daily traffic is returning users**, showing engagement.
 - **Average session ≈ 10 min** → users browse events before buying.
@@ -58,7 +57,7 @@ The analytics team at **Showz** wanted to understand:
 
 ### ROMI by Acquisition Channel
 
-![ROMI by Channel](../../../assets/projects/showz_analysis/romi_by_channel.png)
+![ROMI by Channel]({{ site.baseurl }}/assets/projects/showz_analysis/romi_by_channel.png)
 
 - Cohort curves flatten after month 4 → if CAC > LTV by then, channel is unprofitable.
 - Overall marketing spend > revenue → current mix runs at a net loss (ROI = –0 .23).

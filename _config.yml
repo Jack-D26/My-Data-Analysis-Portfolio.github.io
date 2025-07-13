@@ -3,6 +3,10 @@ author: Joaquín Romero Pérez
 email: j.romero@email.com
 description: Personal portfolio showcasing bootcamp projects, Streamlit apps and modular analytics pipelines.
 
+# ——— GitHub Pages settings ———
+url: "https://jack-d26.github.io" # your root domain (no trailing slash)
+baseurl: "/My-Data-Analysis-Portfolio.github.io"
+
 theme: minima
 
 minima:
