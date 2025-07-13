@@ -39,19 +39,19 @@ My goal was to apply data-driven frameworks to prioritise ideas, run a proper A/
 
 ### Cumulative Revenue – Test vs Control
 
-![Cumulative Revenue](../../assets/projects/busines_decisions/cumulative_revenue.png)
+![Cumulative Revenue](../../../assets/projects/busines_decisions/cumulative_revenue.png)
 
 - **Average Order Value** stayed higher in Group B throughout, suggesting larger baskets, yet variance was high.
 
 ### Relationship Between Average Basket Price and Orders
 
-![Scatter: Mean Prices](../../assets/projects/busines_decisions/scatter_mean_prices.png)
+![Scatter: Mean Prices](../../../assets/projects/busines_decisions/scatter_mean_prices.png)
 
 - **Conversion rate differences were not statistically significant** at the 5 % level.
 
 ### Conversion Rate Over Time
 
-![Conversion Rate](../../assets/projects/busines_decisions/conversion_rate.png)
+![Conversion Rate](../../../assets/projects/busines_decisions/conversion_rate.png)
 
 - The RICE matrix highlighted three high-ROI ideas worth immediate rollout (subscription banner, geo-targeted flash sale, simplified product page).
 

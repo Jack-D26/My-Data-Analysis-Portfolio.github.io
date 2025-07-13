@@ -17,7 +17,7 @@ The goal was to analyze churn behavior, identify patterns, and build strategic c
 
 ### Churn by Contract Duration
 
-![Churn by Contract Type](../../assets/projects/model_fitness/contract_period_churn.png)
+![Churn by Contract Type](../../../assets/projects/model_fitness/contract_period_churn.png)
 
 - Engineered new features and visualized key indicators like tenure, gender, membership type, and activity level.
 
@@ -25,7 +25,7 @@ The goal was to analyze churn behavior, identify patterns, and build strategic c
 
 ### Customer Segmentation with K-Means
 
-![Customer Clusters](../../assets/projects/model_fitness/clusters_kmeans.png)
+![Customer Clusters](../../../assets/projects/model_fitness/clusters_kmeans.png)
 
 - Generated actionable recommendations for each segment to support business strategy.
 
@@ -35,7 +35,7 @@ The goal was to analyze churn behavior, identify patterns, and build strategic c
 
 ### Feature Correlation Matrix
 
-![Correlation Matrix](../../assets/projects/model_fitness/coorelation_matrix.png)
+![Correlation Matrix](../../../assets/projects/model_fitness/coorelation_matrix.png)
 
 - Clients on **short-term contracts** churned at much higher rates than those with long-term memberships.
 - **Lower engagement** (fewer visits and classes per week) was a strong churn predictor.
