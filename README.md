@@ -11,6 +11,12 @@ permalink: /
 I’m **Joaquín Romero**, a data analyst with a degree in **International Business** and a passion for **AI, business intelligence, and workflow automation**.  
 My sweet spot is bridging business problems with analytical solutions: cleaning raw data, uncovering patterns, and turning insights into actions that move the bottom line. I enjoy building end-to-end analytics pipelines— from Python notebooks to BI dashboards— and I’m continuously sharpening my skills in cloud, prompt-engineering, and low-code automation tools.
 
+<video controls width="100%" style="max-width: 720px; border: 1px solid #ccc; border-radius: 8px;">
+  <source src="{{ site.baseurl }}/assets/video_CV.mp4" type="video/mp4">
+  Your browser doesn’t support HTML5 video — 
+  <a href="{{ site.baseurl }}/assets/video_CV.mp4">download it here</a>.
+</video>
+
 ### 📂 Featured Projects
 
 **1. Customer Churn & Segmentation – Model Fitness**  
